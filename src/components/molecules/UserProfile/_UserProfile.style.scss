@@ -1,0 +1,16 @@
+.UserProfile {
+    // @apply tailwind classes go here!
+    // TIP: apply classes on seperate lines:
+    // @apply flex
+    //        next-class (maybe combination of related utils)
+    //        another-class ; // end with semi colon
+
+    /// SUB Classes or exception classes go next:
+    /*
+    &[data-object-type='exception'] {
+        @apply flex
+               next-class (maybe combination of related utils
+               another-class ; // end with semi colon
+    }
+    */
+}

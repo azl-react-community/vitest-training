@@ -3,7 +3,7 @@ import axios from 'axios';
 import { getData, postData } from '@/lib/apiService';
 
 // Mock axios globally
-vi.mock('axios');
+// vi.mock('axios');
 
 describe('API Service', () => {
   it('should fetch data with getData', async () => {

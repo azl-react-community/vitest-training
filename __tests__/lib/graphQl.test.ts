@@ -2,7 +2,7 @@ import { describe, it, expect, vi } from 'vitest';
 import axios from 'axios';
 import { fetchGraphQL } from '@/lib/apiService';
 
-vi.mock('axios');
+//vi.mock('axios');
 
 describe('fetchGraphQL', () => {
   it('should send a GraphQL query and return data', async () => {
