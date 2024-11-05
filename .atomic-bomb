@@ -1,0 +1,7 @@
+{
+  "search": "react",
+  "extension": "tsx",
+  "platform": "react-ts-tw",
+  "destination": "src/components",
+  "scss": false
+}

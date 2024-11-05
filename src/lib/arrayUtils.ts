@@ -1,0 +1,1 @@
+export const containsValue = (array: any, value: string|boolean|null) => array.includes(value)

@@ -1,0 +1,2 @@
+export const hasKey = (obj:any, key:any) => Object.prototype.hasOwnProperty.call(obj, key)
+export const doesKeyHoldValue = (obj: any, key: any, value: any) => obj.hasOwnProperty(key) && obj[key] === value
